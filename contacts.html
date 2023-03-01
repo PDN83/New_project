@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Contacts</title>
+  <link rel="stylesheet" type="text/css" href="css/reset.css">
+  <link rel="stylesheet" type="text/css" href="css/base.css">
+  <link rel="stylesheet" type="text/css" href="css/header.css">
+  <link rel="stylesheet" type="text/css" href="css/main.css">
+  <link rel="stylesheet" type="text/css" href="css/footer.css">
+  <link rel="stylesheet" type="text/css" href="css/contacts.css">
+  
+  <script async src="./js/popup.js"></script>
+</head>
+
+<body>
+  
+  <div class="container">
+    <header class="header">
+      <div class="header_wrapper">
+        <img src="imges/logo.svg" alt="">
+
+        <nav class="navigation">
+          <ul class="navigation_list">
+            <li class="navigation_list-item item">
+              <a class="item_link" href="./index.html">Главная</a>
+            </li>
+
+            <li class="navigation_list-item item">
+              <a class="item_link" href="./students.html">Студенты</a>
+            </li>
+
+            <li class="navigation_list-item item">
+              <a class="item_link" href="./About_the_course.html">О курсе</a>
+            </li>
+
+            <li class="navigation_list-item item_active">
+              <a class="item_link" href="./Contacts.html">Контакты</a>
+            </li>
+          </ul>
+        </nav>
+
+        <button class="button">
+          Войти
+        </button>
+
+        <div class="login-popup">
+          <h2 class="login-heading">Войти на сайт</h2>
+            <form class="login-form">
+             
+            <input class="login-input" name="login" type="text" placeholder="Логин" required>
+            
+            <input class="login-password" name="password" type="text" placeholder="Пароль" required>
+            
+            <button class="popup-button" type="submit">Войти</button>
+          </form>
+       </div>
+      </div>
+    </header>
+    
+    <main class="main">
+      <h1 class="text-search mainer">Как нас найти 🗺️️</h1>
+      <div><iframe class="map"width="1240px" height="370px" src="https://yandex.ru/map-widget/v1/?um=constructor%3A7482a73dea9ba4aab800320987c7b7003a17d579d66f83318bb9317970190225&amp;source=constructor" width="580" height="428" frameborder="0"></iframe>
+      </div>
+      <p class="text-contact mainer">
+        <strong>Наши контакты</strong>
+        <br>Адрес: г. Санкт-Петербург, Дворцовая пл., 2, 190000<br> 
+        <ins>Тел: +7 (812) 555-55-55</ins>
+      </p>
+    </main>
+    
+    <footer class="footer">
+      <p>2022 © учебный центр</p>
+    </footer>
+  </div>
+</body>
+
+</html>

@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" type="text/css" href="css/reset.css">
+  <link rel="stylesheet" type="text/css" href="css/base.css">
+  <link rel="stylesheet" type="text/css" href="css/header.css">
+  <link rel="stylesheet" type="text/css" href="css/main.css">
+  <link rel="stylesheet" type="text/css" href="css/footer.css">
+  
+  <script async src="./js/popup.js"></script>
+</head>
+
+<body>
+  
+  <div class="container">
+    <header class="header">
+      <div class="header_wrapper">
+        <img src="imges/logo.svg" alt="">
+        
+        <nav class="navigation">
+          <ul class="navigation_list">
+            <li class="navigation_list-item item_active">
+              <a class="item_link" href="./index.html">Главная</a>
+            </li>
+            
+            <li class="navigation_list-item item">
+              <a class="item_link" href="./students.html">Студенты</a>
+            </li>
+            
+            <li class="navigation_list-item item">
+              <a class="item_link" href="./About_the_course.html">О курсе</a>
+            </li>
+            
+            <li class="navigation_list-item item">
+              <a class="item_link" href="./Contacts.html">Контакты</a>
+            </li>
+          </ul>
+        </nav>
+        
+        <button class="button">
+          Войти
+        </button>
+        
+        <div class="login-popup">
+          <h2 class="login-heading">Войти на сайт</h2>
+            <form class="login-form">
+              
+            <input class="login-input" name="login" type="text" placeholder="Логин" required>
+            
+            <input class="login-password" name="password" type="text" placeholder="Пароль" required>
+            
+            <button class="popup-button" type="submit">Войти</button>
+          </form>
+        </div>
+      </div>
+    </header>
+    
+    <main class="main">
+      <div class="main-inner">
+        <h1 class="title">
+          Добро пожаловать на курс "Создание веб-сайтов (HTML,
+          CSS)"!
+        </h1>
+        
+        <img src="imges/classRoom.png" alt="" class="main-img">
+        
+        <div class="main-item">
+          <h2 class="item-title">
+            Для кого этот курс
+          </h2>
+          <p class="item-description">
+            Этот курс рассчитан на новичков, которые только
+            начинают знакомство с веб-разработкой. В начале курса
+            вы узнаете о том, как устроен 
+            Интеренет и веб-сайты.<br>
+            Для обучения необходимо только владеть компьютерной
+            грамотностью (пользоваться браузером, создавать папки и файлы, устанавливать программы).
+          </p>
+          
+          <div class="learn">
+            <cite>"Учимся <br>
+            вместе!"</cite>
+          </div>
+        </div>
+        
+        <div class="main-item">
+          <h2 class="item-title">
+            Чему вы научитесь
+          </h2>
+          <p class="item-description" >
+            На этом курсе вы узнаете, как устроены веб-сайты и как создавать их с нуля.
+            Изучите основы языков <strong>HTML</strong>, <strong>CSS</strong> и немного <strong>JavaScript</strong>. Мы
+            вместе верстаем сайт нашей группы по этому макету. А затем вы <em>сами</em>
+            сверстаете свои личные странички в качестве домашнего задания и мы выложим
+            все это на сервер.
+          </p>
+        </div>
+      </div>
+    </main>
+    
+    <form action="page_about_me.html" target="_blank">
+      <button class="c-button">Об авторе</button>
+    </form>
+    
+    <footer class="footer content">
+      <p>2022 © учебный центр</p>
+    </footer>
+  </div>
+</body>
+
+</html>
